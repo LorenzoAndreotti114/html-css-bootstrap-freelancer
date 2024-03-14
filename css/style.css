@@ -1,17 +1,26 @@
 
 .ms_blue-bg {
-    background-color: darkblue;
+    background-color: rgba(58, 84, 109, 1);
     color: white;
 }
 
 .ms_black-bg {
-    background-color: black;
+    background-color: rgba(44, 62, 80, 1);
     color: white;
 }
 
+.ms_white-bg {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
 .ms_green-bg {
-    background-color: green;
+    background-color: rgba(26, 188, 156, 1);
     color: white;
+}
+
+.ms_green-color {
+    color: rgba(26, 188, 156, 1);
 }
 
 .ms_brown-bg {
@@ -23,8 +32,64 @@
     width: 80%;
 }
 
+.ms_white-border {
+    border: 0.6vw solid rgb(255, 255, 255, 1);
+}
+
+.ms_black-border {
+    border: 0.6vw solid rgb(0, 0, 0);
+}
+
+.ms_footer-icon {
+    aspect-ratio: 1 / 1;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 3vw;
+    margin: 0 8%;
+    opacity: 1;
+    font-size: 3vw;
+}
+
+img {
+    border-radius: 20px;
+}
+
 h5 {
     margin: 0;
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+h4 {
+    margin: 0;
+    font-size: 3.5vw;
+    font-weight: 700;
+}
+
+h3 {
+    margin: 0;
+    font-size: 4.5vw;
+    font-weight: 700;
+}
+
+h2 {
+    margin: 0;
+    font-size: 5vw;
+    font-weight: 700;   
+}
+
+h1 {
+    margin: 0;
+    font-size: 8vw;
+    font-weight: 700;  
+}
+
+.f-size {
+    font-size: 3vw;
+}
+
+.f-size-mini {
+    font-size: 2vw;
 }
 
 ul {
@@ -35,9 +100,52 @@ li {
     list-style-type: none;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+.card {
+    border: 0px;
+}
+
+hr {
+    width: 40%;
+    border: 0.6vw solid rgb(255, 255, 255, 1);
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.star-container {
+    font-size: 6vw;
+    padding: 2%;
+}
+
+.star {
+    padding: 0.5% 1%;
+}
+
+
+/* HEADER NAV */
+.burger {
+    font-size: 4vw;
+    padding:2% 5%;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 5px;
+    color: rgb(182, 182, 182);
+}
+
+.hidden-nav {
+    display: none;
+}
+
+.burger-container:hover + .hidden-nav {
+    display: flex;
+}
+
 /* HERO */
 .hero-img {
-    background-color: brown;
     width: 50%;
     height: 100%;
 }

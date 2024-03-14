@@ -10,6 +10,7 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style2.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
@@ -24,16 +25,16 @@
         <!-- FOOTER NAVBAR -->
         <div class="container-flex w-100 ms_blue-bg">
 
-            <div class="row mw-100 m-0 d-flex align-items-center py-4 ">
+            <div class="row mw-100 m-0 d-flex align-items-center py-4 burger-container">
 
                 <!-- LEFT NAV -->
-                <div class="col-6 ms_brown-bg px-3">
-                    <h5>START BOOTSTRAP</h5>
+                <div class="col-6 px-3">
+                    <h3>START BOOTSTRAP</h3>
                 </div>
 
                 <!-- RIGHT NAV -->
-                <div class="col-6 text-end ms_brown-bg d-md-none px-3">
-                    <i class="fa-solid fa-bars"></i>
+                <div class="col-6 text-end d-md-none px-3 ">
+                    <i class="fa-solid fa-bars burger"></i>
                 </div>
 
                 <div class="col-6 ms_brown-bg d-md-flex d-none justify-content-end">
@@ -47,6 +48,18 @@
                 </div>
 
             </div>
+
+            <!-- RIGHT HIDDEN NAV -->
+            <div class="w-100 hidden-nav justify-content-end">
+                <ul class="d-flex flex-column px-3 ms_black-bg">
+                    <li class="px-4 btn"><a href="">PORTFOLIO</a></li>
+
+                    <li class="px-4 btn"><a href="">ABOUT</a></li>
+
+                    <li class="ps-4 btn"><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+
 
         </div>
        
@@ -66,11 +79,14 @@
             <!-- HERO TITLE -->
             <div><h1>START BOOTSTRAP</h1></div>
 
-            <!-- STAR -->
-            <div>-</div>
+            <!-- WHITE STAR -->
+            <div class="star-container d-flex justify-content-center align-items-center w-100 text-center position-relative">
+                <i class="star fa-solid fa-star position-absolute ms_green-bg "></i>
+                <hr class="ms_white-border">
+            </div>
 
             <!-- HERO PROFESSIONS -->
-            <div class="pb-5">---</div>
+            <div class="pb-5"><h4>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h4></div>
 
         </div>
 
@@ -80,50 +96,53 @@
             <!-- PORTFOLIO -->
             <div class="pt-5 pb-2"><h3>PORTFOLIO</h3></div>
 
-            <!-- STAR -->
-            <div class="pb-3">-</div>
+            <!--BLACK STAR -->
+            <div class="star-container d-flex justify-content-center align-items-center w-100 text-center position-relative">
+                <i class="star fa-solid fa-star position-absolute ms_white-bg"></i>
+                <hr class="ms_black-border">
+            </div>
 
             <div class="row w-100 justify-content-center ">
 
                 <div class="row w-100 justify-content-center px-lg-5">
 
                     <!-- CABIN -->
-                    <div class="col-12 p-3 col-md-5 col-lg-4 ms_brown-bg">
+                    <div class="col-12 p-3 col-md-5 col-lg-4">
                         <div class="card">
-                            <img src="./img/cabin.png" alt="">
+                            <img class="" src="./img/cabin.png" alt="">
                         </div>
                     </div>
 
                     <!-- CAKE -->
-                    <div class="col-12 p-3 col-md-5 col-lg-4 ms_brown-bg">
+                    <div class="col-12 p-3 col-md-5 col-lg-4">
                         <div class="card">
                             <img src="./img/cake.png" alt="">
                         </div>
                     </div>
 
                     <!-- CIRCUS -->
-                    <div class="col-12 p-3 col-md-5 col-lg-4 ms_brown-bg">
+                    <div class="col-12 p-3 col-md-5 col-lg-4">
                         <div class="card">
                             <img src="./img/circus.png" alt="">
                         </div>
                     </div>
 
                     <!-- GAME -->
-                    <div class="col-12 p-3 col-md-5 col-lg-4 ms_brown-bg mb-lg-5">
+                    <div class="col-12 p-3 col-md-5 col-lg-4 mb-lg-5">
                         <div class="card">
                             <img src="./img/game.png" alt="">
                         </div>
                     </div>
 
                     <!-- SAFE -->
-                    <div class="col-12 p-3 mb-md-5 col-md-5 col-lg-4 ms_brown-bg">
+                    <div class="col-12 p-3 mb-md-5 col-md-5 col-lg-4">
                         <div class="card">
                             <img src="./img/safe.png" alt="">
                         </div>
                     </div>
 
                     <!-- SUBMARINE -->
-                    <div class="col-12 p-3 mb-5 col-md-5 col-lg-4 ms_brown-bg">
+                    <div class="col-12 p-3 mb-5 col-md-5 col-lg-4">
                         <div class="card">
                             <img src="./img/submarine.png" alt="">
                         </div>
@@ -135,46 +154,70 @@
         </div>
         
         <!-- ABOUT CONTAINER -->
-        <div class="container-flex ms_green-bg d-flex flex-column justify-content-center align-items-center mt-5">
+        <div class="container-flex ms_green-bg d-flex flex-column justify-content-center align-items-center mt-5 py-4">
 
             <!-- TITLE -->
-            <div class="py-4"><h3>ABOUT</h3></div>
+            <div class="py-5"><h2>ABOUT</h2></div>
 
-            <!-- STAR -->
-            <div class="py-2">-</div>
+            <!--WHITE STAR -->
+            <div class="star-container d-flex justify-content-center align-items-center w-100 text-center position-relative">
+                <i class="star fa-solid fa-star position-absolute ms_green-bg "></i>
+                <hr class="ms_white-border">
+            </div>
 
             <!-- PARAGRAPHS -->
             <div class="container d-md-flex mb-5">
                 <!-- PARAGRAPH L -->
-                <div class="card text-start p-3 m-0 ms_brown-bg mb-3 mb-md-0 px-md-3 w-100">
+                <div class="card text-start p-3 m-0 mb-3 mb-md-0 px-md-3 w-100 ms_green-bg f-size">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, est ducimus eos voluptates iusto corporis architecto aut. Explicabo dolorem optio voluptatem ut. Soluta itaque assumenda molestias provident fuga quos nihil!
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia autem blanditiis, natus adipisci deleniti perspiciatis reprehenderit! Nam est qui quibusdam at tempore reiciendis, ex magni, dignissimos nostrum id autem fugit.
                 </div>
 
                 <!-- PARAGRAPH R -->
-                <div class="card text-start p-3 ms_brown-bg mt-3 mt-md-0 px-md-3 w-100">
+                <div class="card text-start p-3 mt-3 mt-md-0 px-md-3 w-100 ms_green-bg f-size">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus dolorum, cupiditate asperiores molestiae error quidem iste vero libero vel porro. Doloremque facere ipsum doloribus magni suscipit reiciendis nobis aut consectetur!
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam sapiente, porro minus placeat natus vitae assumenda cumque perferendis molestias, distinctio pariatur rerum? Nostrum rem consequatur ullam? Non sit velit autem!
                 </div>
             </div>    
 
             <!-- DOWNLOAD BTN -->
-            <button type="button" class="btn btn-outline-light mb-4">download</button>
+            <button type="button" class="btn btn-outline-light mb-4 p-3"><h3><i class="fa-solid fa-download pe-2"></i>Download</h3></button>
 
         </div>
 
         <!-- CONTACT ME CONTAINER -->
-        <div class="container-flex d-flex flex-column justify-content-center align-items-center">
+        <div class="container-flex d-flex flex-column justify-content-center align-items-center py-5">
 
             <!-- TITLE -->
-            <div class="pt-5"><h3>CONTACT ME</h3></div>
+            <div class="py-4"><h2>CONTACT ME</h2></div>
 
-            <!-- STAR -->
-            <div class="py-3">-</div>
+            <!--BLACk STAR -->
+            <div class="star-container d-flex justify-content-center align-items-center w-100 text-center position-relative">
+                <i class="star fa-solid fa-star position-absolute ms_white-bg"></i>
+                <hr class="ms_black-border">
+            </div>
 
             <!-- FORM -->
-            <div class="container ms_brown-bg">
-                -
+            <div class="container w-75">
+
+                <form action="">
+
+                    <label for="input-name" class="form-label"><h4>Name</h4></label>
+                    <input type="text" id="input-name" class="form-control f-size" required>
+
+                    <label for="input-email" class="form-label"><h4>Email Address</h4></label>
+                    <input type="email" id="input-email" class="form-control f-size" required>
+
+                    <label for="input-phone" class="form-label"><h4>Phone Number</h4></label>
+                    <input type="number" id="input-phone" class="form-control f-size" required>
+
+                    <label for="input-message" class="form-label"><h4>Message</h4></label>
+                    <textarea id="input-message" class="form-control f-size" rows="5"></textarea>
+
+                    <input type="submit" class="btn btn-success f-size mt-4" value="Send">
+                    
+                </form>
+
             </div>
         </div>
 
@@ -190,22 +233,29 @@
             <div class="text-center col-md-4 ">
                 <div class="pt-5 pb-2 p-md-0 "><h4>LOCATION</h4></div>
 
-                <div>lorem</div>
+                <div><h4>2215 John Daniel Drive Clark, MO 54243</h4></div>
             </div>
 
             <!-- AROUND THE WEB -->
-            <div class="text-center col-md-4">
+            <div class="text-center d-flex flex-column align-items-center justify-content-center col-md-4">
+
+                <!-- TITLE -->
                 <div class="pt-5 pb-2 p-md-0 "><h4>AROUND THE WEB</h4></div>
 
                 <!-- ICONS -->
-                <div class="container w-50 ms_brown-bg d-flex align-items-center justify-content-between">
-                    <div>1</div>
+                <div class="container w-50 t d-flex align-items-center justify-content-center">
 
-                    <div>2</div>
+                    <!-- FACEBOOK -->
+                    <i class="fa-brands fa-facebook-f ms_footer-icon"></i>
 
-                    <div>3</div>
+                    <!-- GOOGLE + -->
+                    <i class="fa-brands fa-google-plus-g ms_footer-icon"></i>
 
-                    <div>4</div>
+                    <!-- TWITTER -->
+                    <i class="fa-brands fa-twitter ms_footer-icon"></i>
+
+                    <!-- LINKEDIN -->
+                    <i class="fa-brands fa-linkedin-in ms_footer-icon"></i>
                     
                 </div>
             </div>
@@ -214,14 +264,14 @@
             <div class="text-center pb-5 p-md-0 col-md-4">
                 <div class="pt-5 pb-2 p-md-0 "><h4>ABOUT FREELANCER</h4></div>
             
-                <div>lorem</div>
+                <div><h4>Freelancer is a free to use, open source Bootstrap theme created by <span class="ms_green-color">Start Bootstrap</span>.</h4></div>
             </div>
             
         </div>
 
         <!-- COPYRIGHT -->
         <div class="container-flex d-flex flex-column justify-content-center align-items-center ms_black-bg">
-            <div class="py-4">lorem</div>
+            <div class="py-5 f-size-mini">Copyright <i class="fa-regular fa-copyright"></i> Your Website 2019</div>
         </div>
 
     </footer>
