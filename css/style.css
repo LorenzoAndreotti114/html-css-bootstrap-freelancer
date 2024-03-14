@@ -1,0 +1,44 @@
+
+.ms_blue-bg {
+    background-color: darkblue;
+    color: white;
+}
+
+.ms_black-bg {
+    background-color: black;
+    color: white;
+}
+
+.ms_green-bg {
+    background-color: green;
+    color: white;
+}
+
+.ms_brown-bg {
+    background-color: brown;
+    border: 1px solid black;
+}
+
+.ms_w-80 {
+    width: 80%;
+}
+
+h5 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* HERO */
+.hero-img {
+    background-color: brown;
+    width: 50%;
+    height: 100%;
+}
+
