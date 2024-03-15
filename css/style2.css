@@ -1,0 +1,87 @@
+@media screen and (min-width: 768px) {
+
+    .ms_hero-img {
+        width: 70%;
+    }
+
+    h1 {
+        font-size: 6.5vw;
+    }
+
+    h3 {
+        font-size: 3.5vw;
+    }
+
+    h4 {
+        font-size: 2.5vw;
+    }
+
+    .star-container {
+        font-size: 4vw;
+    }
+
+    .ms_white-border {
+        border: 0.4vw solid white;
+    }
+
+    .ms_black-border {
+        border: 0.4vw solid rgb(0, 0, 0);
+    }
+
+    .f-size-mini {
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .ms_hero-img {
+        width: 40%;
+    }
+
+    h1 {
+        font-size: 5vw;
+    }
+
+    h2 {
+        font-size: 4vw;
+    }
+
+    h3 {
+        font-size: 2.5vw;
+    }
+
+    h4 {
+        font-size: 1.5vw;
+    }
+
+    h5 {
+        font-size: 1vw;
+    }
+
+    .star-container {
+        font-size: 3vw;
+    }
+
+    .f-size {
+        font-size: 2vw;
+    }
+
+    .ms_white-border {
+        border: 0.3vw solid white;
+    }
+
+    .ms_black-border {
+        border: 0.3vw solid rgb(0, 0, 0);
+    }
+
+    .ms_footer-icon {
+        aspect-ratio: 1 / 1;
+        border: 1px solid white;
+        border-radius: 50%;
+        padding: 1.5vw;
+        margin: 5% 8%;
+        opacity: 1;
+        font-size: 1.5vw;
+    }
+}
